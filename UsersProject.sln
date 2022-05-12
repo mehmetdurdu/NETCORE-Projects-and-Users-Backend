@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entiti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleUI", "ConsoleUI\ConsoleUI.csproj", "{6A8212E9-58DD-449F-9934-6C9AC53077F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{D4D084B8-1542-4F01-B4E3-1502A1957CC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{D4D084B8-1542-4F01-B4E3-1502A1957CC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{2D48712F-5AC0-4E3C-BC4E-9D1C33D3E535}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "WebAPI\WebAPI.csproj", "{2D48712F-5AC0-4E3C-BC4E-9D1C33D3E535}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "NETCORE-Projects-and-Users-Backend", "..\NETCORE-Projects-and-Users-Backend\NETCORE-Projects-and-Users-Backend.sqlproj", "{BE24140D-6C13-4E13-A54E-F57787E36B37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,12 @@ Global
 		{2D48712F-5AC0-4E3C-BC4E-9D1C33D3E535}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D48712F-5AC0-4E3C-BC4E-9D1C33D3E535}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D48712F-5AC0-4E3C-BC4E-9D1C33D3E535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE24140D-6C13-4E13-A54E-F57787E36B37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE24140D-6C13-4E13-A54E-F57787E36B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE24140D-6C13-4E13-A54E-F57787E36B37}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BE24140D-6C13-4E13-A54E-F57787E36B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE24140D-6C13-4E13-A54E-F57787E36B37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE24140D-6C13-4E13-A54E-F57787E36B37}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
