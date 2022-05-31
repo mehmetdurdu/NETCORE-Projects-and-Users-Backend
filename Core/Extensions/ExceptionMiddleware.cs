@@ -43,6 +43,7 @@ namespace Core.Extensions
                 errors = ((ValidationException)e).Errors;
                 httpContext.Response.StatusCode = 400;
 
+                //Validation hatası için
                 return httpContext.Response.WriteAsync(new ValidationErrorDetails
                 {
                     StatusCode = 400,
@@ -50,7 +51,7 @@ namespace Core.Extensions
                     ValidationErrors = errors
                 }.ToString());
             }
-
+            //Sistemsel hata için
             return httpContext.Response.WriteAsync(new ErrorDetails
             {
                 StatusCode = httpContext.Response.StatusCode,
